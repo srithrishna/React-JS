@@ -1,4 +1,4 @@
-var a = 20
+/* var a = 20
 console.log("This is the value before :" + a)
 {
     var a =20
@@ -17,7 +17,7 @@ console.log("This is the value:" + b)
 const c = 140
 console.log("This is the value:" + c)
 
-const d= 5
+const d= 5 
 console.log("This is the value:" + d)
 
 let a = 0
@@ -48,4 +48,6 @@ while(i < a){
 array=[10,20]
 array.forEach(element => console.log(element))
 
+
+ */
 
