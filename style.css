@@ -1,0 +1,45 @@
+.grid-container{
+    display: grid;
+    grid-template-columns:auto;
+    background-color:black;
+    padding: 10px;
+
+  }
+  .grid-item {
+    background-color:rgb(143, 193, 143);
+    border: 3px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+
+  }
+ .container{
+    max-width: 800px;
+    min-height: 600px;
+    margin-inline: auto;
+    display: flex;
+    gap: 1rem;
+    
+    justify-content: center;
+    
+    align-items: center;
+    flex-direction:row-reverse;
+    flex-flow:row wrap;
+
+    
+  }
+.be{
+    height: 100px;
+    background-color: rgb(161, 107, 125);
+    color: beige;
+    font-size: 2rem;
+    padding: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    border:3px solid black;
+    
+    align-items: center;
+    flex-basis: 100px;
+    flex-grow: 1;
+}
