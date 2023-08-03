@@ -62,6 +62,16 @@ for (var ele in b){
     }
 }
 
+//function//
 
+function kavi(){
+    console.log(7 + 7+"7"+2)
+}
+kavi()
+
+function jk(s,d){
+    return s+d
+}
+console.log(jk(5,5))
 
 
