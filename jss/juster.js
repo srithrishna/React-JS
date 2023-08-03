@@ -35,3 +35,33 @@ array.push(1)
 console.log(array)
 
 
+//object//
+b={
+    Father:"Jayakumar",
+    Mother:"Kavitha",
+    Me: "Thrish",
+    Bro: "Singam (Sanjai)",
+    car: "Ferrai",
+
+
+}
+
+console.log(b['Father'])
+console.log(b.Mother)
+b.car ="McLaren"
+console.log(b)
+b.sunroof={shape:"Rectangle"}
+console.log(b.sunroof.shape)
+
+for (var ele in b){
+    console.log(ele +":"+b[ele])
+    if(typeof b[ele]==="object"){
+        for (var val in b[ele]){
+            console.log(val + ":"+ b[ele][val])
+        }
+    }
+}
+
+
+
+
