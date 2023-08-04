@@ -1,4 +1,4 @@
-const array =["thrishna",23,2,10.00,Date()]
+/* const array =["thrishna",23,2,10.00,Date()]
 for(var ele in array){
     console.log(array[ele])
 }
@@ -74,4 +74,21 @@ function jk(s,d){
 }
 console.log(jk(5,5))
 
+*/
+
+a = () => console.log("helllooooo")
+a()
+
+class thrish{
+    n='alpha'
+    sum(){
+
+        console.log(this.n)
+        console.log("Google")
+        
+    }
+}
+obj1= new thrish()
+obj1.sum()
+console.log(obj1.n)
 
